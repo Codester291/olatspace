@@ -1,0 +1,64 @@
+.navbar-brand{
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    
+    box-shadow: 0px 5px 34px rgba(0, 0, 0, 0.1);
+
+}
+header{
+    background: url('https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+[contain]{
+    background-color: lightblue;
+    opacity: 1;
+    vertical-align: middle;
+    flood-opacity: 5%;
+}
+[overlay]{
+    position: absolute;
+    top: 1;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+[display-3]{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    /* opacity: 1; */
+    vertical-align: middle;
+    flood-opacity: 5%;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    /* background-color: black; */
+    opacity: 0.7;
+    z-index: 1;
+}
+[small]{
+    font-size: 20px;
+    padding-right: 3em;
+}
+[smaller]{
+    font-size: 17px;
+    padding-right: 3em;
+}
+.navbar-toggler{
+    border-style: none;
+}
