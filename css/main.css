@@ -11,7 +11,7 @@ header {
   background-size: cover;
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 90vh;
   min-height: 25rem;
   width: 100%;
   /* overflow: hidden; */
@@ -59,7 +59,7 @@ header {
   font-size: 17px;
   padding-right: 3em;
 }
-.navbar-toggler {
+.navbar-toggler-icon {
   border-style: none;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 .carousel-item {
   height: 65vh;
-  min-height: 350px;
+  /* min-height: 350px; */
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,13 +86,13 @@ header {
   color: white;
   text-align: center;
 }
-i {
+.service-icons {
   color: white;
   background: lightblue;
   border-radius: 50%;
   padding: 0.2em 0.2em 0.2em 0.2em;
   box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.3);
-  animation: i 1s ease-in-out 0s infinite alternate;
+  animation: service-icons 1s ease-in-out 0s infinite alternate;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
@@ -100,9 +100,9 @@ i {
   animation-direction: alternate;
   animation-fill-mode: none;
   animation-play-state: running;
-  animation-name: i;
+  animation-name: service-icons;
 }
-@keyframes i {
+@keyframes service-icons {
   0% {
     transform: translateY(0);
   }
@@ -113,13 +113,64 @@ i {
     transform: translateY(0);
   }
 }
-p{
-    cursor: pointer;
+p {
+  cursor: pointer;
 }
-.services {
-  background: #f1f1f1;
+.jumbotron {
+  padding: 5em 0em 9em 0em;
 }
-.bounceimg {
-  -webkit-animation: bounceimg 1s ease-in-out 0s infinite alternate;
-  animation: bounceimg 1s ease-in-out 0s infinite alternate;
+.col-sm {
+  padding: 5em 0em 0em 0em;
+}
+.contact-sect {
+  padding: 2em 2em 2em 2em;
+}
+#sticky-footer {
+  flex-shrink: none;
+}
+[display-2] {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.twitter {
+  color: #00acee;
+}
+.google {
+  color: #db3236;
+}
+.contact-us {
+  /* background-color: #f1f1f1; */
+  padding: 0.4em 1em 2em 5em;
+  border-radius: 12px;
+}
+.contact-us:hover {
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.3);
+}
+.col-sm {
+  padding: 2em 2em 2em 2em;
+}
+.row {
+  padding: 1em 2em 1em 2em;
+}
+[class*="col-"] {
+  width: 100%;
+}
+.map-wrap {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 13px 34px rgba(0, 0, 0, 0.3);
+}
+
+.map-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  
 }
